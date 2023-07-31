@@ -1,4 +1,4 @@
-# Profasee App
+# Data Table Project
 
 This repository contains the Data Table project, a React.js application that showcases interactive tables and visualizations for the list of any data having rows and columns . The application uses the DataTable library to display data fetched from JSON file, and it allows users to filter the data, search the particular data, and also can view an overall complete description of any particular field.
 
@@ -15,12 +15,12 @@ To run the Data Table project locally, follow these steps:
 1. Clone this repository to your local machine using:
   
   ```bash
-   git clone https://github.com/your-username/datatabel.git
+   git clone https://github.com/IPH-Technologies-Pvt-Ltd/DataTable-Web-ReactJS.git
 ```
 2. Navigate to the project directory:
 
  ```bash
-   cd datatable
+   cd DataTable-Web-ReactJS
 ```
 3. Install the required dependencies using npm:
 
