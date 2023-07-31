@@ -41,7 +41,7 @@ To run the Data Table project locally, follow these steps:
 
 # Technologies Used:
 - React.js
-- DataTabel (library)
+- DataTable (library)
 - CSS
 
 
@@ -59,4 +59,4 @@ This project is licensed under the MIT License.
 
 
 
-Enjoy exploring the DataTabel Project If you have any questions or need further assistance, please don't hesitate to contact us. Happy charting!
+Enjoy exploring the DataTable Project If you have any questions or need further assistance, please don't hesitate to contact us. Happy charting!
