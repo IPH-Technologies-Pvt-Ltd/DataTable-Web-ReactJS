@@ -1,26 +1,26 @@
 # Profasee App
 
-This repository contains the Profasee App, a React.js application that showcases interactive charts and visualizations for ad revenue and profit/loss data. The app uses the ApexCharts library to display data fetched from an external API, and it allows users to select date ranges to view different time periods' data.
+This repository contains the Data Table project, a React.js application that showcases interactive tables and visualizations for the list of any data having rows and columns . The application uses the DataTable library to display data fetched from JSON file, and it allows users to filter the data, search the particular data, and also can view an overall complete description of any particular field.
 
 # Features
-- Interactive charts and visualizations for ad revenue and profit/loss data.
-- Datepicker to select custom date ranges for data visualization.
-- Comparison of data between the current year and the previous year.
-- Real-time data fetching from an external API (https://dev-api2.profasee.com/reports/test-data).
-- Styling using Tailwind CSS for a responsive and modern UI.
+- Interactive data representation of the employee of any organization.
+- Searching is used to search any Employee data.
+- Sorting by name , designation and other fields.
+- Data can be fetched from the JSON.
+- Styling using using bootstrap.
 
 # Getting Started
-To run the Profasee App locally, follow these steps:
+To run the Data Table project locally, follow these steps:
 
 1. Clone this repository to your local machine using:
   
   ```bash
-   git clone https://github.com/your-username/profasee.git
+   git clone https://github.com/your-username/datatabel.git
 ```
 2. Navigate to the project directory:
 
  ```bash
-   cd profasee
+   cd datatable
 ```
 3. Install the required dependencies using npm:
 
@@ -35,24 +35,23 @@ To run the Profasee App locally, follow these steps:
 5. Open your web browser and visit http://localhost:3000 to see the app in action.
 
 # Usage:
-- Upon launching the app, you will be presented with various interactive charts displaying ad revenue and profit/loss data.
-- Use the datepicker to select custom date ranges and see how the data changes accordingly.
-- The charts compare data between the current year and the previous year for meaningful insights.
+- Upon launching the project, you will be presented with interactive tabel displaying employee name, desination, city, and other details.
+- Use the Searching to search a particular employee using its any information.
+- The data table comprises the rows and column.
 
 # Technologies Used:
 - React.js
-- ApexCharts
-- Tailwind CSS
-- Day.js
-- Moment.js
+- DataTabel (library)
+- CSS
+
 
 # Contributions
-Contributions to the Profasee App are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+Contributions to the DataTable Project are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
 # License
 This project is licensed under the MIT License.
 
-<img src="https://github.com/IPH-Technologies-Pvt-Ltd/Profasee/blob/80aab37558f78c8ab6d4628d90c1a07e83da5eb5/profasee.gif" 
+<img src="" 
      width="500" 
      height="300" />
 
@@ -60,4 +59,4 @@ This project is licensed under the MIT License.
 
 
 
-Enjoy exploring the Profasee App! If you have any questions or need further assistance, please don't hesitate to contact us. Happy charting!
+Enjoy exploring the DataTabel Project If you have any questions or need further assistance, please don't hesitate to contact us. Happy charting!
