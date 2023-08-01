@@ -51,9 +51,10 @@ Contributions to the DataTable Project are welcome! If you find any issues or ha
 # License
 This project is licensed under the MIT License.
 
+# Screenshot
 <img src="https://github.com/IPH-Technologies-Pvt-Ltd/DataTable-Web-ReactJS/blob/main/demo.gif" 
      width="500" 
-     height="300" />
+     height="400" />
 
 
 
