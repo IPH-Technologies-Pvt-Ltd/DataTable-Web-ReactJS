@@ -10,26 +10,23 @@ div.dataTables_wrapper {
   border: 5px #000;
   border-radius: 5px;
   margin-left: 15vh;
-  margin-right: 15vh;;
+  margin-right: 15vh;
+  margin-top: 20px;
   position: relative;
-
 }
 
 #myTable_wrapper {
   overflow-x: auto;
 }
 
-
 .dataTables_wrapper .dataTables_paginate,
 .dataTables_wrapper .dataTables_info {
   margin-top: 5px;
 }
 
-
 .dataTables_wrapper table {
   margin: 0 auto;
 }
-
 
 .dataTables_wrapper .dataTables_scrollBody {
   padding: 5px;

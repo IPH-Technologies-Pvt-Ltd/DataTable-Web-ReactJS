@@ -94,117 +94,30 @@ const Table = () => {
         </Modal.Header>
         {selectedEmployee && (
           <Modal.Body>
-            <form>
-              <label htmlFor="id">ID:</label>
-              <input
-                type="text"
-                id="id"
-                name="id"
-                value={selectedEmployee.id}
-                readOnly
-              />
+            <p>
+              <strong>ID:</strong> {selectedEmployee.id}
               <br />
-
-              <label htmlFor="firstName">First Name:</label>
-              <input
-                type="text"
-                id="firstName"
-                name="firstName"
-                value={selectedEmployee.First_name}
-                readOnly
-              />
+              <strong>First Name:</strong> {selectedEmployee.First_name}
               <br />
-
-              <label htmlFor="lastName">Last Name:</label>
-              <input
-                type="text"
-                id="lastName"
-                name="lastName"
-                value={selectedEmployee.Last_name}
-                readOnly
-              />
+              <strong>Last Name:</strong> {selectedEmployee.Last_name}
               <br />
-
-              <label htmlFor="email">Email:</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                value={selectedEmployee.email}
-                readOnly
-              />
+              <strong>Email:</strong> {selectedEmployee.email}
               <br />
-
-              <label htmlFor="city">City:</label>
-              <input
-                type="text"
-                id="city"
-                name="city"
-                value={selectedEmployee.City}
-                readOnly
-              />
+              <strong>City:</strong> {selectedEmployee.City}
               <br />
-
-              <label htmlFor="designation">Designation:</label>
-              <input
-                type="text"
-                id="designation"
-                name="designation"
-                value={selectedEmployee.Designation}
-                readOnly
-              />
+              <strong>Designation:</strong> {selectedEmployee.Designation}
               <br />
-
-              <label htmlFor="contact">Contact:</label>
-              <input
-                type="tel"
-                id="contact"
-                name="contact"
-                value={selectedEmployee.Contact}
-                readOnly
-              />
+              <strong>Contact:</strong> {selectedEmployee.Contact}
               <br />
-
-              <label htmlFor="dob">DOB:</label>
-              <input
-                type="tel"
-                id="dob"
-                name="dob"
-                value={selectedEmployee.DOB}
-                readOnly
-              />
+              <strong>DOB:</strong> {selectedEmployee.DOB}
               <br />
-
-              <label htmlFor="gender">Gender:</label>
-              <input
-                type="tel"
-                id="gender"
-                name="gender"
-                value={selectedEmployee.Gender}
-                readOnly
-              />
+              <strong>Gender:</strong> {selectedEmployee.Gender}
               <br />
-
-              <label htmlFor="pincode">Pin Code:</label>
-              <input
-                type="tel"
-                id="pincode"
-                name="pincode"
-                value={selectedEmployee.Pincode}
-                readOnly
-              />
+              <strong>Pin Code:</strong> {selectedEmployee.Pincode}
               <br />
-
-              <label htmlFor="state">State:</label>
-              <input
-                type="tel"
-                id="state"
-                name="state"
-                value={selectedEmployee.State}
-                readOnly
-              />
+              <strong>State:</strong> {selectedEmployee.State}
               <br />
-            </form>
+            </p>
           </Modal.Body>
         )}
         <Modal.Footer>
