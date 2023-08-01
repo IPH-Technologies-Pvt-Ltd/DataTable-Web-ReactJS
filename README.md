@@ -56,8 +56,4 @@ This project is licensed under the MIT License.
      width="500" 
      height="400" />
 
-
-
-
-
 Enjoy exploring the DataTable Project If you have any questions or need further assistance, please don't hesitate to contact us. Happy charting!
