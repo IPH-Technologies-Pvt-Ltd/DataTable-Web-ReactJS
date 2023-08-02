@@ -14,7 +14,6 @@ import "../App.css";
 import "datatables.net-responsive-bs5";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-
 const Table = () => {
   const [show, setShow] = useState(false);
   const [selectedEmployee, setSelectedEmployee] = useState(null);
@@ -24,32 +23,17 @@ const Table = () => {
     setSelectedEmployee(emp);
     setShow(!show);
   };
-
   const tableRef = useRef(null);
-
   useEffect(() => {
     if (data && data.length) {
       const dataTable = $(tableRef.current).DataTable({
         retrieve: true,
         fixedHeader: true,
-        // select: true,
         dom: "Bfrtip",
         buttons: ["csv", "print"],
-        // columnDefs: [
-        //   {
-        //     targets: 0,
-        //     checkboxes: {
-        //       selectRow: true,
-        //     },
-        //   },
-        // ],
-        // select: {
-        //   style: "multi",
-        // },
       });
     }
   }, []);
-
   return (
     <>
       <h1>Employee Table</h1>
@@ -129,5 +113,4 @@ const Table = () => {
     </>
   );
 };
-
 export default Table;
